@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sushi_Order", "Sushi_Order\Sushi_Order.csproj", "{CF320AF5-B514-4A55-BE38-5956E4A09947}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Debug|ARM.ActiveCfg = Debug|ARM
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Debug|ARM.Build.0 = Debug|ARM
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Debug|ARM.Deploy.0 = Debug|ARM
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Debug|x64.ActiveCfg = Debug|x64
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Debug|x64.Build.0 = Debug|x64
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Debug|x64.Deploy.0 = Debug|x64
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Debug|x86.ActiveCfg = Debug|x86
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Debug|x86.Build.0 = Debug|x86
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Debug|x86.Deploy.0 = Debug|x86
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Release|ARM.ActiveCfg = Release|ARM
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Release|ARM.Build.0 = Release|ARM
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Release|ARM.Deploy.0 = Release|ARM
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Release|x64.ActiveCfg = Release|x64
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Release|x64.Build.0 = Release|x64
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Release|x64.Deploy.0 = Release|x64
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Release|x86.ActiveCfg = Release|x86
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Release|x86.Build.0 = Release|x86
+		{CF320AF5-B514-4A55-BE38-5956E4A09947}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
