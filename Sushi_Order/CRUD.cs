@@ -73,7 +73,7 @@ namespace Sushi_Order
             try
             {
                 sqlcomm.ExecuteNonQuery();
-                //Console.WriteLine("Berhasil Memasukan data MataKuliah!");
+               
             }
             catch (Exception e)
             {
