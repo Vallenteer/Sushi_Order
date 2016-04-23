@@ -13,23 +13,28 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
+// The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
 namespace Sushi_Order
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class MainPage : Page
+    public sealed partial class Order : Page
     {
-        public MainPage()
+        public Order()
         {
             this.InitializeComponent();
+            //CRUD app = new CRUD();
+            //app.TestConnection();
         }
 
-        private void LoginButton_Click(object sender, RoutedEventArgs e)
+        private void OrderButton_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(Order));
+            CRUD app = new CRUD();
+            //app.TestConnection();
+             app.tambahOrder("naa", "Sushi_Order", 12, "Surya", "0812334");
+            this.Frame.Navigate(typeof(MainPage));
         }
     }
 }

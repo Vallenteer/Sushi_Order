@@ -7,7 +7,25 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <RelativePanel Background="#263238">
+            <TextBlock x:Name="TitleText" Text="Order Sushi Online" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                   FontSize="54" Margin="10,10,10,30" Foreground="#c0392b"  />
+            <TextBox x:Name="UsernameText" PlaceholderText="Username" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                 RelativePanel.Below="TitleText" Margin="15" FontSize="24" Width="250" RequestedTheme="Dark"/>
+            <PasswordBox x:Name="PasswordText" PlaceholderText="Password" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                 RelativePanel.Below="UsernameText" Margin="15,15,15,0" FontSize="24" Width="250" RequestedTheme="Dark" Height="44" VerticalAlignment="Top"/>
+            <PasswordBox x:Name="RePasswordText" PlaceholderText="Password" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                 RelativePanel.Below="PasswordText" Margin="15" FontSize="24" Width="250" RequestedTheme="Dark" Visibility="Collapsed"/>
 
-    </Grid>
-</Page>
+            <TextBox x:Name="EmailText" PlaceholderText="Email" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                 RelativePanel.Below="RePasswordText" Margin="15" FontSize="24" Width="250" RequestedTheme="Dark" Visibility="Collapsed"/>
+
+            <Button x:Name="LoginButton" Content="Login" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                RelativePanel.Below="EmailText" Margin="15"  
+                FontSize="24" Width="150" RequestedTheme="Dark" Click="LoginButton_Click"/>
+            <TextBlock x:Name="ToggleText" Text="Sign Up" RelativePanel.AlignHorizontalCenterWithPanel="True"
+                   RelativePanel.AlignBottomWithPanel="True" Margin="15" Foreground="White" />
+            <ProgressRing x:Name="MyProgress" RelativePanel.AlignHorizontalCenterWithPanel="true"
+                      RelativePanel.AlignVerticalCenterWithPanel="True" Width="75" Height="75" IsActive="False"/>
+        </RelativePanel>
+    </Page>
