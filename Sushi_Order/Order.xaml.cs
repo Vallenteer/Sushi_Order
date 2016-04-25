@@ -7,6 +7,7 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Popups;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
@@ -33,10 +34,10 @@ namespace Sushi_Order
             //app.TestConnection();
         }
 
-        private void OrderButton_Click(object sender, RoutedEventArgs e)
+        private async void OrderButton_Click(object sender, RoutedEventArgs e)
         {
             CRUD app = new CRUD();
-            //app.TestConnection();
+             app.TestConnection();
              app.tambahOrder("naa", "Sushi_Order", 12, "Surya", "0812334");
             this.Frame.Navigate(typeof(MainPage));
         }

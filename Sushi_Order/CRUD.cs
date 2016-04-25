@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Windows.UI.Popups;
+using Windows.Foundation;
 using MySql;
 using MySql.Data;
 using MySql.Web;
@@ -32,7 +34,11 @@ namespace Sushi_Order
             }
             catch (Exception e)
             {
-               // Console.WriteLine(e.Message);
+                // Console.WriteLine(e.Message);
+                //var dialog = new MessageDialog(e.Message);
+                //dialog.Commands.Add(new Windows.UI.Popups.UICommand("OK") { Id = 0 });
+
+                
             }
             if (connString.State.ToString() != "Open")
             {
